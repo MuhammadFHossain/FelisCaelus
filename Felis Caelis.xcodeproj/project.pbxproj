@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86A0F6491854F80700D113E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F6481854F80700D113E5 /* Foundation.framework */; };
+		86A0F64B1854F80700D113E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F64A1854F80700D113E5 /* CoreGraphics.framework */; };
+		86A0F64D1854F80700D113E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F64C1854F80700D113E5 /* UIKit.framework */; };
+		86A0F6531854F80700D113E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86A0F6511854F80700D113E5 /* InfoPlist.strings */; };
+		86A0F6551854F80700D113E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0F6541854F80700D113E5 /* main.m */; };
+		86A0F6591854F80700D113E5 /* Felis_FinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0F6581854F80700D113E5 /* Felis_FinderAppDelegate.m */; };
+		86A0F65C1854F80700D113E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A0F65A1854F80700D113E5 /* Main.storyboard */; };
+		86A0F65F1854F80700D113E5 /* Felis_FinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0F65E1854F80700D113E5 /* Felis_FinderViewController.m */; };
+		86A0F6611854F80700D113E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A0F6601854F80700D113E5 /* Images.xcassets */; };
+		86A0F6681854F80700D113E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F6671854F80700D113E5 /* XCTest.framework */; };
+		86A0F6691854F80700D113E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F6481854F80700D113E5 /* Foundation.framework */; };
+		86A0F66A1854F80700D113E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A0F64C1854F80700D113E5 /* UIKit.framework */; };
+		86A0F6721854F80700D113E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86A0F6701854F80700D113E5 /* InfoPlist.strings */; };
+		86A0F6741854F80700D113E5 /* Felis_CaelisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0F6731854F80700D113E5 /* Felis_CaelisTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86A0F66B1854F80700D113E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A0F63D1854F80700D113E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A0F6441854F80700D113E5;
+			remoteInfo = "Felis Caelis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86A0F6451854F80700D113E5 /* Felis Caelis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Felis Caelis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A0F6481854F80700D113E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86A0F64A1854F80700D113E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86A0F64C1854F80700D113E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86A0F6501854F80700D113E5 /* Felis Caelis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Felis Caelis-Info.plist"; sourceTree = "<group>"; };
+		86A0F6521854F80700D113E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86A0F6541854F80700D113E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86A0F6561854F80700D113E5 /* Felis Caelis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Felis Caelis-Prefix.pch"; sourceTree = "<group>"; };
+		86A0F6571854F80700D113E5 /* Felis_FinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Felis_FinderAppDelegate.h; sourceTree = "<group>"; };
+		86A0F6581854F80700D113E5 /* Felis_FinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felis_FinderAppDelegate.m; sourceTree = "<group>"; };
+		86A0F65B1854F80700D113E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86A0F65D1854F80700D113E5 /* Felis_FinderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Felis_FinderViewController.h; sourceTree = "<group>"; };
+		86A0F65E1854F80700D113E5 /* Felis_FinderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felis_FinderViewController.m; sourceTree = "<group>"; };
+		86A0F6601854F80700D113E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86A0F6661854F80700D113E5 /* Felis CaelisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Felis CaelisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A0F6671854F80700D113E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86A0F66F1854F80700D113E5 /* Felis CaelisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Felis CaelisTests-Info.plist"; sourceTree = "<group>"; };
+		86A0F6711854F80700D113E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86A0F6731854F80700D113E5 /* Felis_CaelisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felis_CaelisTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A0F6421854F80700D113E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F64B1854F80700D113E5 /* CoreGraphics.framework in Frameworks */,
+				86A0F64D1854F80700D113E5 /* UIKit.framework in Frameworks */,
+				86A0F6491854F80700D113E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0F6631854F80700D113E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F6681854F80700D113E5 /* XCTest.framework in Frameworks */,
+				86A0F66A1854F80700D113E5 /* UIKit.framework in Frameworks */,
+				86A0F6691854F80700D113E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A0F63C1854F80700D113E5 = {
+			isa = PBXGroup;
+			children = (
+				86A0F64E1854F80700D113E5 /* Felis Caelis */,
+				86A0F66D1854F80700D113E5 /* Felis CaelisTests */,
+				86A0F6471854F80700D113E5 /* Frameworks */,
+				86A0F6461854F80700D113E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86A0F6461854F80700D113E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F6451854F80700D113E5 /* Felis Caelis.app */,
+				86A0F6661854F80700D113E5 /* Felis CaelisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A0F6471854F80700D113E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F6481854F80700D113E5 /* Foundation.framework */,
+				86A0F64A1854F80700D113E5 /* CoreGraphics.framework */,
+				86A0F64C1854F80700D113E5 /* UIKit.framework */,
+				86A0F6671854F80700D113E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86A0F64E1854F80700D113E5 /* Felis Caelis */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F6571854F80700D113E5 /* Felis_FinderAppDelegate.h */,
+				86A0F6581854F80700D113E5 /* Felis_FinderAppDelegate.m */,
+				86A0F65A1854F80700D113E5 /* Main.storyboard */,
+				86A0F65D1854F80700D113E5 /* Felis_FinderViewController.h */,
+				86A0F65E1854F80700D113E5 /* Felis_FinderViewController.m */,
+				86A0F6601854F80700D113E5 /* Images.xcassets */,
+				86A0F64F1854F80700D113E5 /* Supporting Files */,
+			);
+			path = "Felis Caelis";
+			sourceTree = "<group>";
+		};
+		86A0F64F1854F80700D113E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F6501854F80700D113E5 /* Felis Caelis-Info.plist */,
+				86A0F6511854F80700D113E5 /* InfoPlist.strings */,
+				86A0F6541854F80700D113E5 /* main.m */,
+				86A0F6561854F80700D113E5 /* Felis Caelis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86A0F66D1854F80700D113E5 /* Felis CaelisTests */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F6731854F80700D113E5 /* Felis_CaelisTests.m */,
+				86A0F66E1854F80700D113E5 /* Supporting Files */,
+			);
+			path = "Felis CaelisTests";
+			sourceTree = "<group>";
+		};
+		86A0F66E1854F80700D113E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A0F66F1854F80700D113E5 /* Felis CaelisTests-Info.plist */,
+				86A0F6701854F80700D113E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A0F6441854F80700D113E5 /* Felis Caelis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A0F6771854F80700D113E5 /* Build configuration list for PBXNativeTarget "Felis Caelis" */;
+			buildPhases = (
+				86A0F6411854F80700D113E5 /* Sources */,
+				86A0F6421854F80700D113E5 /* Frameworks */,
+				86A0F6431854F80700D113E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Felis Caelis";
+			productName = "Felis Caelis";
+			productReference = 86A0F6451854F80700D113E5 /* Felis Caelis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A0F6651854F80700D113E5 /* Felis CaelisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A0F67A1854F80700D113E5 /* Build configuration list for PBXNativeTarget "Felis CaelisTests" */;
+			buildPhases = (
+				86A0F6621854F80700D113E5 /* Sources */,
+				86A0F6631854F80700D113E5 /* Frameworks */,
+				86A0F6641854F80700D113E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A0F66C1854F80700D113E5 /* PBXTargetDependency */,
+			);
+			name = "Felis CaelisTests";
+			productName = "Felis CaelisTests";
+			productReference = 86A0F6661854F80700D113E5 /* Felis CaelisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A0F63D1854F80700D113E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Felis Finder";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Apps Factory";
+				TargetAttributes = {
+					86A0F6651854F80700D113E5 = {
+						TestTargetID = 86A0F6441854F80700D113E5;
+					};
+				};
+			};
+			buildConfigurationList = 86A0F6401854F80700D113E5 /* Build configuration list for PBXProject "Felis Caelis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A0F63C1854F80700D113E5;
+			productRefGroup = 86A0F6461854F80700D113E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A0F6441854F80700D113E5 /* Felis Caelis */,
+				86A0F6651854F80700D113E5 /* Felis CaelisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A0F6431854F80700D113E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F6611854F80700D113E5 /* Images.xcassets in Resources */,
+				86A0F6531854F80700D113E5 /* InfoPlist.strings in Resources */,
+				86A0F65C1854F80700D113E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0F6641854F80700D113E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F6721854F80700D113E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A0F6411854F80700D113E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F6591854F80700D113E5 /* Felis_FinderAppDelegate.m in Sources */,
+				86A0F65F1854F80700D113E5 /* Felis_FinderViewController.m in Sources */,
+				86A0F6551854F80700D113E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A0F6621854F80700D113E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A0F6741854F80700D113E5 /* Felis_CaelisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86A0F66C1854F80700D113E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A0F6441854F80700D113E5 /* Felis Caelis */;
+			targetProxy = 86A0F66B1854F80700D113E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86A0F6511854F80700D113E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A0F6521854F80700D113E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86A0F65A1854F80700D113E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A0F65B1854F80700D113E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86A0F6701854F80700D113E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A0F6711854F80700D113E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A0F6751854F80700D113E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86A0F6761854F80700D113E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A0F6781854F80700D113E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Felis Caelis/Felis Caelis-Prefix.pch";
+				INFOPLIST_FILE = "Felis Caelis/Felis Caelis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86A0F6791854F80700D113E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Felis Caelis/Felis Caelis-Prefix.pch";
+				INFOPLIST_FILE = "Felis Caelis/Felis Caelis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86A0F67B1854F80700D113E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Felis Caelis.app/Felis Caelis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Felis Caelis/Felis Caelis-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Felis CaelisTests/Felis CaelisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86A0F67C1854F80700D113E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Felis Caelis.app/Felis Caelis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Felis Caelis/Felis Caelis-Prefix.pch";
+				INFOPLIST_FILE = "Felis CaelisTests/Felis CaelisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A0F6401854F80700D113E5 /* Build configuration list for PBXProject "Felis Caelis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0F6751854F80700D113E5 /* Debug */,
+				86A0F6761854F80700D113E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A0F6771854F80700D113E5 /* Build configuration list for PBXNativeTarget "Felis Caelis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0F6781854F80700D113E5 /* Debug */,
+				86A0F6791854F80700D113E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86A0F67A1854F80700D113E5 /* Build configuration list for PBXNativeTarget "Felis CaelisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A0F67B1854F80700D113E5 /* Debug */,
+				86A0F67C1854F80700D113E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86A0F63D1854F80700D113E5 /* Project object */;
+}
